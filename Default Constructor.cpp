@@ -8,9 +8,9 @@ class student{
 		
 		//Default Constructer
 		student(){
-			name="Sumit Kumar";
+			name="Suhaan Ahmed";
 			course="BTech";
-			roll=2534209;
+			roll=2534203;
 			cout<<"Using default constructor"<<endl;
 			cout<<"\nName: "<<name<<endl;
 			cout<<"Course: "<<course<<endl;
