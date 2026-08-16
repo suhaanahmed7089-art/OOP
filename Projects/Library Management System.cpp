@@ -27,6 +27,7 @@ class library
 		string author;
 		int book_id;
 			cin.ignore();
+			cout<<endl;
 			cout<<"Enter book name: ";
 			getline(cin,title);
 			cout<<"\nEnter the author name: ";
@@ -65,7 +66,7 @@ class library
 			{
 				if(id==books[i].book_id)
 				{
-					cout<<"\nBook found: "<<endl;
+					cout<<"\nBook found!! "<<endl;
 					cout<<"ID: "<<books[i].book_id<<endl;
 					cout<<"Title: "<<books[i].title<<endl;
 					cout<<"Author: "<<books[i].author<<endl;
